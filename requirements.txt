@@ -1,0 +1,6 @@
+# requirements.txt
+pandas
+# For LLM integration in Day 3:
+langchain
+openai  # Use this, as LM Studio mimics the OpenAI client structure
+python-dotenv

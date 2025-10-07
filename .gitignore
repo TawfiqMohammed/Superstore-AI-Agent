@@ -1,0 +1,12 @@
+# .gitignore
+# Environment and Python artifacts
+venv/
+__pycache__/
+*.pyc
+
+# Sensitive Files
+.env             # Crucial: Protects your OpenAI/API keys
+
+# Large Data Files (Keep Superstore.csv if small enough, but exclude large logs)
+# data/*.csv     # UNCOMMENT THIS IF Superstore.csv IS TOO LARGE (over 25MB)
+*.log
